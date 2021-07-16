@@ -30,4 +30,5 @@ jobs:
               source py38-venv/bin/activate && \
               python --version && \
               uname -m && \
+              apt-get -y install cargo && \
               deactivate'
